@@ -1,142 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>portofolio saya</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coffe Website</title>
+    <!-- Link TO CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
-
 <body>
-<header>
-<h1>Welcome in my profil</h1>
-</header>
-<main>
-<section>
-    <h2>Informasi Pribadi</h2>
-</section>
-</main>
-</body>
-
-<ul>
-      <li>Nama    : <b>Tasya Aurellya Amanda</b></li>
-      <li>Nim     : <b>0110123299</b></li>
-      <li>Rombel  : <b>SI10</b></li>
-      <li>Prodi   : <b>Sistem Informasi</b></li>
-      <li>Email   : <b>@tasyaaurellya6@gmail.com</b></li>
-      <li>Linkedln: <b>https://www.linkedin.com/in/aurellya-amanda-b02551293</b></li>
-</ul>
-
-<section>
-    <h2>My Gallery Whislist</h2>
-    <h6>ini adalah halaman gallery yang menampilkan daftar kota favorit saya yang ada di indonesia</h6>
-    <h2>Foto Kota Favorit</h2>
-    <img
-    src= "kotabogor jpg"
-    alt="gambar_Kota Bogor"
-    style="width:200px;height:100px;"/>
-    
-    <img
-    src="kotabandung.jpg"
-    alt="gambar_kota_Bandung"
-    style="width:200px;height:100px:">
-    
-    <img 
-    src="kotajogjaa.jpg" 
-    alt="gambar_kota_jogjaa"
-    style="width: 200px;height:100px:"/>
-    
-    <img 
-    src="kotadepok.jpg"
-    alt="gambar_kota_depok"
-    style="width: 200px;height:100px"/>
-    
-    <img 
-    src="kotajakarta.jpg" 
-    alt="gambar_kota_jakarta" 
-    style="width:200px;height:100px"/>
-    
-    <img 
-    src="kotapalembang.jpg" 
-    alt="gambar_kota_pelembang"
-    style="width:200px;height:100px"/>
-    
-    
-        
-    </script>
-</section>
-
-<section>
-    <h2>Informasi Kota Favorit</h2>
-    <table border="1">
-        <tr>
-            <th>Nama Kota</th>
-            <th>Icon Kota</th>
-            <th>Jumlah Penduduk</th>
-            <th>Keunikan</th>
-        </tr>
-        <tr>
-            <td>Bogor</td>
-            <td>Tugu Kujang</td>
-            <td>10.679.951 Jiwa</td>
-            <td>Kota Metropolitan</td>
-        </tr>
-        <tr>
-            <td>Bandung</td>
-            <td>Gedung Sate</td>
-            <td>2.469.589 Jiwa</td>
-            <td>Kota Kembang</td>
-        </tr>
-        <tr>
-            <td>Jogja</td>
-            <td>Tugu Jogja</td>
-            <td>455.535 Jiwa</td>
-            <td>Kota Pelajar</td>
-            </tr>
-            <tr>
-                <td>Depok</td>
-                <td>Kota Belimbing</td>
-                <td>2.085.935</td>
-                <td>Kota Belimbing</td>
-            </tr>
-            <tr>
-                <td>Jakarta</td>
-                <td>Monas</td>
-                <td>10.679.951 Jiwa</td>
-                <td>Kota Metropolitan</td>
-            </tr>
-            <tr>
-                <td>Palembang</td>
-                <td>Jembatan Ampera</td>
-                <td>1.686.073</td>
-                <td>Pempek</td>
-            </tr>
-    </table>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="">
+      </a>
+      <!-- Menu-Icon-->
+      <i class='bx bx-menu' id="menu icon"></i>
+      <!-- Links -->
+      <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about us">About us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#customers">Customers</a></li>
+      </ul>
+      <!-- Icon -->
+      <div class="header-icon">
+        <i class='bx bx-cart-alt' ></i>
+        <i class='bx bx-search' id="search-icon"></i>
+      </div>
+      <!-- Search Box-->
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Search Here...">
+      </div>
+    </header> 
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home-text">
+          <h1>Start your day <br> with coffee</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sed autem voluptas ipsa incidunt dignissimos officiis corporis ea architecto debitis nemo magnam inventore, dolor qui unde perspiciatis quam maxime aliquam.</p>
+          <a href="#" class="btn">Shop Now</a>
+      </div>
+      <div class="home-img">
+        <img src="img/main.png" alt="">
+      </div>
     </section>
-             
-        <section>
-             <h2>Informasi Kontak</h2>
-             <form>
-                 <label>Nama Anda:</label>
-                 <input type="text">
-                 <br><br>
-                 
-                 <label>Email Anda:</label>
-                 <input type="email">
-                 <br><br>
-                 
-                 <label>Usia Anda:</label>
-                 <input type="text">
-                 <br><br>
-                 <label>Tanggal Kunjungan</label>
-                 <input type="date">
-                 <br><br>
-                 <label>Pesan anda:</label>
-                 <textarea cols="30" rows="10"></textarea>
-                 <br><br>
-                 
-                 
-                 <input type="submit" value="kirim">
-             </form>
-    <footer>
-        <p>2023 Aurellya</p>
-    </footer>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about.jpg" alt="">
+        <h2>Our History</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aliquam ea, consequuntur eaque recusandae perferendis voluptatem nihil officia quod eum excepturi earum veritatis id totam quidem animi quae. Sequi, corporis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aliquam ea, consequuntur eaque recusandae perferendis voluptatem nihil officia quod eum excepturi earum veritatis id totam quidem animi quae. Sequi, corporis!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio tempore cumque provident error suscipit?</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+    <!-- Products -->
+    <section class="products" id="products">
+      <div class="heading">
+        <h2>Our popular products</h2>
+      </div>
+      <!-- Container -->
+      <div class="products-container">
+        <div class="box">
+          <img src="img/p1.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#" class="Add to cart"></a>
+          </div>
+        </div>
+      <div class="box">
+        <img src="img/p2.png" alt="">
+        <h3>Americano Pure</h3>
+        <div class="content">
+          <span>$25</span>
+          <a href="#" class="Add to cart"></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/p3.png" alt="">
+        <h3>Americano Pure</h3>
+        <div class="content">
+          <span>$25</span>
+          <a href="#" class="Add to cart"></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/p4.png" alt="">
+        <h3>Americano Pure</h3>
+        <div class="content">
+          <span>$25</span>
+          <a href="#" class="Add to cart"></a>
+        </div>
+        <div class="box">
+          <img src="img/p5.png" alt="">
+          <h3>Americano Pure</h3>
+          <div class="content">
+            <span>$25</span>
+            <a href="#" class="Add to cart"></a>
+          </div>
+          <div class="box">
+            <img src="img/p6.png" alt="">
+            <h3>Americano Pure</h3>
+            <div class="content">
+              <span>$25</span>
+              <a href="#" class="Add to cart"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Customers -->
+      <section class="customers" id="customers">
+        <div class="heading">
+          <h2>Our customer's</h2>
+        </div>
+        <!-- Container -->
+        <div class="customers-container">
+          <div class="box">
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore explicabo esse neque adipisci, fugit corporis?</p>
+            <h2>Yasin Arafat</h2>
+            <img src="img/rev1.jpg" alt="">
+          </div>
+          <div class="box">
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore explicabo esse neque adipisci, fugit corporis?</p>
+            <h2>Yasin Arafat</h2>
+            <img src="img/rev2.jpg" alt="">
+          </div>
+          <div class="box">
+            <div class="stars">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore explicabo esse neque adipisci, fugit corporis?</p>
+            <h2>Yasin Arafat</h2>
+            <img src="img/rev3.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-box">
+          <h2>Coffe Shop</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, alias.</p>
+          <div class="social">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="#"><i class='bx bxl-instagram'></i></a>
+              <a href="#"><i class='bx bxl-tiktok'></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Support</h3>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Product</a></li>
+        </div>
+        <div class="footer-box">
+          <h3>View Guides</h3>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog Posts</a></li>
+          <li><a href="#">Our Brancheses</a></li>
+          </div>
+          <div class="footer-box"></div>
+          <h3>Contact</h3>
+          <div class="contact">
+            <span><i class='bx bxs-map'></i>250 New York City, USA 10001</span>
+            <span><i class='bx bxs-phone'></i>+1 444 744 8444</span>
+            <span><i class='bx bxs-envelope'></i>chofee@shop.com</span>
+          </div>
+      </section>
+      <!-- Coppyright -->
+      <div class="coppyright">
+        <p>&#169; CarpoolVenom All Right Reserved</p>
+      </div>
+
+
+
+
+
+
+    <!--Link To JS-->
+    <script src="main.js"></script>  
+</body>
 </html>
